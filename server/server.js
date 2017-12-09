@@ -8,7 +8,7 @@ var app = express()
 app.use(express.static(publicPath))
 
 app.listen(3000, () => {
-  console.log('server is up on port 3000, localhost:3000')
+  console.log(`Server is up on ${port}`)
 })
 
 console.log(__dirname + '/../public')
